@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+android {
+
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        debug {
+            buildConfigField "Integer", "PUB_TYPE", "2"
+        }
+
+        release {
+            buildConfigField "Integer", "PUB_TYPE", "2"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}

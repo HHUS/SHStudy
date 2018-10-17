@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.csii.shstudy"
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String","BASE_URL","\"https://dev.masnpay.com/maila/\""
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+//    channel{
+//        //指定渠道文件
+//        channelFile = file("channel.txt")
+//        //多渠道包的输出目录，默认为new File(project.buildDir,"channel")
+//        baseOutputDir = new File(project.buildDir,"channel")
+//        //多渠道包的命名规则，默认为：${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}
+//        apkNameFormat ='${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}'
+//        //快速模式：生成渠道包时不进行校验（速度可以提升10倍以上）
+//        isFastMode = false
+//    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //rxjava -- reactivex
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.5.0'
+//    api 'com.leon.channel:helper:1.1.7' //多渠道打包工具
+    implementation 'com.liulishuo.filedownloader:library:1.7.4'
+    implementation group: 'com.alibaba', name: 'arouter-api', version: '1.1.0' //组件化工具
+    implementation group: 'com.alibaba', name: 'arouter-annotation', version: '1.0.3'
+
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+    implementation project(':commonlibriry')
+    implementation project(':PTFramework')
+}

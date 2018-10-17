@@ -1,0 +1,6 @@
+int raw cbframework_datamapping 0x7f140001
+int raw cbframework_log 0x7f140002
+int raw ptframework_cert 0x7f140003
+int raw ptframework_check_sign 0x7f140004
+int raw ptframework_config 0x7f140005
+int raw readme 0x7f140006

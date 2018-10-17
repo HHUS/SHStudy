@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_cbframework_datamapping.json.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/cbframework_datamapping.json"
+    },
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_ptframework_cert.crt.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/ptframework_cert.crt"
+    },
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_ptframework_config.cfg.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/ptframework_config.cfg"
+    },
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_readme.md.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/readme.md"
+    },
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_ptframework_check_sign.crt.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/ptframework_check_sign.crt"
+    },
+    {
+        "merged": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/res/merged/androidTest/debug/raw_cbframework_log.xml.flat",
+        "source": "/Users/sunhao/Android/studio_space/SHStudy/PTFramework/build/intermediates/bundles/debug/res/raw/cbframework_log.xml"
+    }
+]
