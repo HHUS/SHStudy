@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
-import com.csii.sh.util.Logger;
+import com.csii.util.Logger;
 
 /**
  * autor : sunhao

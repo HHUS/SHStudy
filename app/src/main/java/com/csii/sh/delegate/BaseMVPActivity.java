@@ -15,7 +15,6 @@ import com.csii.sh.R;
 import com.csii.sh.base.BaseActivity;
 import com.csii.sh.navigation.DefaultNavigationBar;
 import com.csii.sh.presenter.BasePresenter;
-import com.csii.sh.util.ActivityManager;
 import com.csii.sh.view.IView;
 import com.gyf.barlibrary.ImmersionBar;
 

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.csii.sh.base.BaseActivity;
 import com.csii.sh.core.callback.IntentCallBack;
 import com.csii.sh.util.Constant;
-import com.csii.sh.util.Logger;
+import com.csii.util.Logger;
 
 /**
  * autor : sunhao

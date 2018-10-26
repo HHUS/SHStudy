@@ -8,9 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import com.csii.sh.core.callback.CallBackIntent;
 import com.csii.sh.core.callback.IntentCallBack;
 import com.csii.sh.core.secure.SecureManager;
-import com.csii.sh.util.ActivityManager;
 import com.csii.sh.util.Constant;
-import com.csii.sh.util.Logger;
+import com.csii.util.Logger;
 import com.csii.sh.util.PermissionUtil;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 

@@ -1,1 +1,1 @@
-include ':app', ':commonlibriry', ':PTFramework', ':framework', ':core'
+include ':app', ':common', ':PTFramework'

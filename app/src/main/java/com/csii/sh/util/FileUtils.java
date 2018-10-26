@@ -3,6 +3,8 @@ package com.csii.sh.util;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 
+import com.csii.util.Logger;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

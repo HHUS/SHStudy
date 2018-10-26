@@ -10,7 +10,7 @@ import android.os.Build;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import com.csii.sh.util.Logger;
+import com.csii.util.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;

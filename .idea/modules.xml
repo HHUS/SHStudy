@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/PTFramework/PTFramework.iml" filepath="$PROJECT_DIR$/PTFramework/PTFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/SHStudy.iml" filepath="$PROJECT_DIR$/SHStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/commonlibriry/commonlibriry.iml" filepath="$PROJECT_DIR$/commonlibriry/commonlibriry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/commonlibriry.iml" filepath="$PROJECT_DIR$/common/commonlibriry.iml" />
     </modules>
   </component>
 </project>

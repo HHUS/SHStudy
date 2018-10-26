@@ -18,7 +18,7 @@ import com.csii.sh.net.APIService;
 import com.csii.sh.net.RetrofitDownClient;
 import com.csii.sh.net.impl.OnProgressResponseListener;
 import com.csii.sh.util.FileUtils;
-import com.csii.sh.util.Logger;
+import com.csii.util.Logger;
 import com.csii.sh.util.NotificationUtils;
 
 import org.reactivestreams.Subscriber;

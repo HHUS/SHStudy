@@ -29,16 +29,6 @@ android {
         }
     }
 
-//    channel{
-//        //指定渠道文件
-//        channelFile = file("channel.txt")
-//        //多渠道包的输出目录，默认为new File(project.buildDir,"channel")
-//        baseOutputDir = new File(project.buildDir,"channel")
-//        //多渠道包的命名规则，默认为：${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}
-//        apkNameFormat ='${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}'
-//        //快速模式：生成渠道包时不进行校验（速度可以提升10倍以上）
-//        isFastMode = false
-//    }
 }
 
 dependencies {
@@ -62,9 +52,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.squareup.okhttp3:okhttp:3.9.1'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
-    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
     implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
-    implementation 'com.github.bumptech.glide:glide:4.5.0'
 //    api 'com.leon.channel:helper:1.1.7' //多渠道打包工具
     implementation 'com.liulishuo.filedownloader:library:1.7.4'
     implementation group: 'com.alibaba', name: 'arouter-api', version: '1.1.0' //组件化工具
@@ -72,6 +60,6 @@ dependencies {
 
     implementation 'org.greenrobot:eventbus:3.0.0'
 
-    implementation project(':commonlibriry')
+    implementation project(':common')
     implementation project(':PTFramework')
 }
